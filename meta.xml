@@ -1,0 +1,12 @@
+<meta>
+    <info author="LOYAthe" name="Araç ve Takas Sistemi" version="1.0"/>
+    <script src="files/lib.lua" type="client"/>
+
+    <script src="c_client.lua" type="client"/>
+    <script src="c_server.lua" type="server"/>
+
+    <script src="c_cars.lua" type="shared"/>
+    <export function="aracsatinal" type="client"/>
+
+    <file src="files/ekfont.ttf"/>
+</meta>
